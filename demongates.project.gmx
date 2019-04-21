@@ -11,7 +11,9 @@
   <shaders name="shaders"/>
   <fonts name="fonts"/>
   <timelines name="timelines"/>
-  <objects name="objects"/>
+  <objects name="objects">
+    <object>objects\obj_controller</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_arena</room>
   </rooms>
