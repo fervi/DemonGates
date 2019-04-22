@@ -8,6 +8,7 @@
     <sprite>sprites\spr_gate</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_demon</sprite>
   </sprites>
   <sounds name="sound"/>
   <backgrounds name="background"/>
@@ -22,6 +23,7 @@
     <object>objects\obj_gate</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_demon</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_arena</room>
