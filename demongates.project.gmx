@@ -6,6 +6,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_hero</sprite>
     <sprite>sprites\spr_gate</sprite>
+    <sprite>sprites\spr_bullet</sprite>
   </sprites>
   <sounds name="sound"/>
   <backgrounds name="background"/>
@@ -18,6 +19,7 @@
     <object>objects\obj_controller</object>
     <object>objects\obj_hero</object>
     <object>objects\obj_gate</object>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_arena</room>
