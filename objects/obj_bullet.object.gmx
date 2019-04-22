@@ -70,7 +70,8 @@ direction=point_direction(obj_hero.x,obj_hero.y,mouse_x,mouse_y)</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();</string>
+            <string>effect_create_above(ef_ring, x, y, 0, c_white);&#13;
+instance_destroy();</string>
           </argument>
         </arguments>
       </action>
