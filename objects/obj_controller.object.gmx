@@ -26,7 +26,23 @@
           <argument>
             <kind>1</kind>
             <string>score=0&#13;
-alarm[0]=room_speed;</string>
+alarm[0]=room_speed;&#13;
+&#13;
+for (i = 0; i &lt; room_width; i += 32) {&#13;
+instance_create(i, 0, obj_wall);&#13;
+}&#13;
+&#13;
+for (i = 0; i &lt; room_width; i += 32) {&#13;
+instance_create(i, room_height-32, obj_wall);&#13;
+}&#13;
+&#13;
+for (i = 0; i &lt; room_height; i += 32) {&#13;
+instance_create(0, i, obj_wall);&#13;
+}&#13;
+&#13;
+for (i = 0; i &lt; room_width; i += 32) {&#13;
+instance_create(room_width-32, i, obj_wall);&#13;
+}</string>
           </argument>
         </arguments>
       </action>
