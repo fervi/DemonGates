@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed=1;</string>
+            <string>hp=100;&#13;
+speed=3;</string>
           </argument>
         </arguments>
       </action>
@@ -49,6 +50,52 @@
             <kind>1</kind>
             <string>direction = point_direction(x, y, obj_hero.x, obj_hero.y);&#13;
 image_angle = direction;</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// If health is below 1&#13;
+&#13;
+if(hp&lt;1) {&#13;
+instance_destroy();&#13;
+}</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event ename="obj_bullet" eventtype="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <useapplyto>-1</useapplyto>
+        <isquestion>0</isquestion>
+        <exetype>2</exetype>
+        <functionname/>
+        <codestring/>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hp = hp - irandom_range(3, 25);</string>
           </argument>
         </arguments>
       </action>

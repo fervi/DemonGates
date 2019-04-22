@@ -52,6 +52,7 @@
   <instances>
     <instance code="" colour="4294967295" id="100001" locked="0" name="inst_30447DEE" objName="obj_controller" rotation="0.0" scaleX="1.0" scaleY="1.0" x="0" y="0"/>
     <instance code="" colour="4294967295" id="100003" locked="0" name="inst_CFB43FF4" objName="obj_hero" rotation="0.0" scaleX="1.0" scaleY="1.0" x="112" y="64"/>
+    <instance code="" colour="4294967295" id="100006" locked="0" name="inst_4FE4C8A4" objName="obj_demon" rotation="0.0" scaleX="1.0" scaleY="1.0" x="416" y="208"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
