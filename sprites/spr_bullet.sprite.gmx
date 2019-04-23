@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <sprite>
-  <xorig>1</xorig>
-  <yorigin>1</yorigin>
+  <xorig>2</xorig>
+  <yorigin>2</yorigin>
   <colkind>1</colkind>
   <sepmasks>0</sepmasks>
   <bbox_left>0</bbox_left>
-  <bbox_right>2</bbox_right>
+  <bbox_right>3</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>2</bbox_bottom>
+  <bbox_bottom>3</bbox_bottom>
   <bboxmode>0</bboxmode>
   <coltolerance>0</coltolerance>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <For3D>0</For3D>
-  <width>3</width>
-  <height>3</height>
+  <width>4</width>
+  <height>4</height>
   <frames>
     <frame index="0">images\spr_bullet_0.png</frame>
   </frames>
