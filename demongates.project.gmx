@@ -11,7 +11,9 @@
     <sprite>sprites\spr_demon</sprite>
   </sprites>
   <sounds name="sound"/>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bkg_floor</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts"/>
   <shaders name="shaders"/>
