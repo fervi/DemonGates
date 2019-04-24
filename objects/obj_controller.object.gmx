@@ -114,7 +114,7 @@ alarm[0]=room_speed;&#13;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(view_xview[0]+(window_get_width()/2)-((string_width(score))/2), view_yview[0]+10, score);</string>
+            <string>draw_text_outline_ext(view_xview[0]+(window_get_width()/2)-((string_width(score))/2), view_yview[0]+10, score, c_white, c_black, 1000, 1000);</string>
           </argument>
         </arguments>
       </action>

@@ -15,7 +15,9 @@
     <background>background\bkg_floor</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <script>scripts\draw_text_outline_ext.gml</script>
+  </scripts>
   <shaders name="shaders"/>
   <fonts name="fonts"/>
   <timelines name="timelines"/>
