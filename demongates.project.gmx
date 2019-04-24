@@ -9,11 +9,10 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_demon</sprite>
+    <sprite>sprites\spr_floor</sprite>
   </sprites>
   <sounds name="sound"/>
-  <backgrounds name="background">
-    <background>background\bkg_floor</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\draw_text_outline_ext.gml</script>
@@ -28,6 +27,7 @@
     <object>objects\obj_bullet</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_demon</object>
+    <object>objects\obj_floor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_arena</room>
