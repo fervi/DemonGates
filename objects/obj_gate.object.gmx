@@ -78,7 +78,9 @@ alarm[0]=room_speed;&#13;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();</string>
+            <string>effect_create_above(ef_smoke, x, y, 1, c_gray);&#13;
+&#13;
+instance_destroy();</string>
           </argument>
         </arguments>
       </action>
