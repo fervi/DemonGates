@@ -18,7 +18,9 @@
     <script>scripts\draw_text_outline_ext.gml</script>
   </scripts>
   <shaders name="shaders"/>
-  <fonts name="fonts"/>
+  <fonts name="fonts">
+    <font>fonts\font_ingame</font>
+  </fonts>
   <timelines name="timelines"/>
   <objects name="objects">
     <object>objects\obj_controller</object>
