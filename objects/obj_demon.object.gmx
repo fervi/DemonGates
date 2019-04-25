@@ -48,8 +48,12 @@ speed=3;</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>direction = point_direction(x, y, obj_hero.x, obj_hero.y);&#13;
-image_angle = direction;</string>
+            <string>/// Follow Hero&#13;
+&#13;
+if instance_number(obj_hero) = 1 {&#13;
+direction = point_direction(x, y, obj_hero.x, obj_hero.y);&#13;
+image_angle = direction;&#13;
+}</string>
           </argument>
         </arguments>
       </action>
